@@ -30,11 +30,11 @@ String FamilyMember = JOptionPane.showInputDialog("Whose birthday do you want?")
 			// 6. if user asked for your name
 				// print myBirthday
 			if(FamilyMember.equals("davin")){
-	JOptionPane.showConfirmDialog(null, myBirthday);
+	JOptionPane.showInputDialog(null, myBirthday);
 			}
 			
 			if(FamilyMember.equals("lincon"));
-			JOptionPane.showConfirmDialog(null, otherBirthday);
+			JOptionPane.showInputDialog(null, otherBirthday);
 			//7. otherwise print "Sorry, i don't remember that person's birthday!"
 			if(FamilyMember.equals("mom")){
 			}
